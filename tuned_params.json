@@ -1,0 +1,42 @@
+{
+  "xgb": {
+    "objective": "reg:tweedie",
+    "n_estimators": 894,
+    "max_depth": 3,
+    "learning_rate": 0.02001232281361367,
+    "subsample": 0.7490104191783584,
+    "colsample_bytree": 0.6817969221444723,
+    "min_child_weight": 4,
+    "reg_alpha": 1.8040794787760345e-06,
+    "reg_lambda": 0.00010381556343215306,
+    "tweedie_variance_power": 1.255794030149154
+  },
+  "lgb": {
+    "objective": "tweedie",
+    "n_estimators": 876,
+    "max_depth": 3,
+    "num_leaves": 222,
+    "learning_rate": 0.028587742677511633,
+    "subsample": 0.9148667618663544,
+    "colsample_bytree": 0.6643948041039961,
+    "min_child_samples": 39,
+    "reg_alpha": 4.8694142619491254e-05,
+    "reg_lambda": 1.9160137609009873,
+    "tweedie_variance_power": 1.4271552404172512
+  },
+  "cb": {
+    "bootstrap_type": "Bernoulli",
+    "n_estimators": 1176,
+    "depth": 4,
+    "learning_rate": 0.021881826287645272,
+    "l2_leaf_reg": 0.4039491400937201,
+    "random_strength": 1.1112807035040816e-06,
+    "rsm": 0.7735821827681655,
+    "subsample": 0.7542296629698668,
+    "loss_function": "Tweedie:variance_power=1.6775604533177424"
+  },
+  "twlr": {
+    "power": 1.8871071352518831,
+    "alpha": 0.06393802816289053
+  }
+}
